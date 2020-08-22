@@ -1,9 +1,10 @@
 from tkinter import *
+from tkinter import ttk
 
 root = Tk()
 
 root.title('Calculator')
-root.geometry('400x400')
+root.geometry('450x200')
 e = Entry(root)
 e.pack()
 fr = Frame(root)
@@ -21,9 +22,9 @@ col = 0
 
 for i in btn_list:
     if i == '=':
-        Button(fr, text=i, padx=20, pady=10).grid(row=row, column=col, columnspan=3, sticky=W + E)
+        ttk.Button(fr, text=i).grid(row=row, column=col, columnspan=3, sticky=W + E)
     else:
-        Button(fr, text=i, padx=20, pady=10).grid(row=row, column=col)
+        ttk.Button(fr, text=i).grid(row=row, column=col)
     col += 1
     if col == 5:
         col = 0
