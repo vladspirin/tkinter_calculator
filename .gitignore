@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/tkinter_calculator.iml
+.idea/vcs.xml
+calc.py
