@@ -132,4 +132,3 @@ dmypy.json
 .idea/modules.xml
 .idea/tkinter_calculator.iml
 .idea/vcs.xml
-calc.py
